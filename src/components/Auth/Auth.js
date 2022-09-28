@@ -5,7 +5,7 @@ import './Auth.css';
 import { useState } from 'react';
 import { authUser } from '../../services/auth';
 import { useContext } from 'react';
-import { UserContext } from '../../context/userContext';
+import { UserContext } from '../../context/UserContext';
 
 export default function Auth() {
   const { type } = useParams();
